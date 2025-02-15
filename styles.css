@@ -209,3 +209,49 @@ body {
 .light-ashPink{
     background: #b9a7ac;
 }
+.tabular--wrapper{
+    background: rgb(236, 188, 200);
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.table-container{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background: #b57281;
+    color: #000000;
+}
+th{
+    padding: 15px;
+    text-align: left;
+}
+tbody tr{
+    border-bottom: 1px solid #b57281;
+}
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: #250e0d;
+}
+tr:nth-child(even){
+    background: #f1dede;
+}
+tfoot{
+    background: #b57281;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+tfoot td{
+    padding: 15px;
+}
+.table-container button{
+    color: rgb(187, 1, 1);
+    background: none;
+    cursor: pointer;
+}
